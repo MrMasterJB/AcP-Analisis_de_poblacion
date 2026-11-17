@@ -26,7 +26,7 @@ poblacion = matriz[1]
 #Extraemos de la matriz las dos filas como variables independientes.
 
 
-print("\n========== Representación gráfica - Grafico de barras ==========")
+print("\n========== Representación gráfica - Gráfico de barras ==========")
 
 plt.figure(figsize=(10, 5))
 plt.plot(anios, poblacion, marker="o", linestyle="-")
@@ -38,5 +38,7 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
+#Imprimimos en el terminal una línea indicativa de que realizamos la representación gráfica
+#Generamos el gráfico de barras utilizando matplotlib.pyplot
 
 

@@ -1,0 +1,11 @@
+
+# Comando para ejecutar en el terminal para instalar todos los requerimientos:
+# py -m pip install -r requerimientos.txt
+
+
+pandas
+numpy
+matplotlib
+pathlib
+openpyxl #permite abrir los xls/xlsx
+
